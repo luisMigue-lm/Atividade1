@@ -1,0 +1,48 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    padding: 2%;
+    background-color: #f1eeee;
+}
+
+.cabecalho h2{
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.cabecalho p{
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: end;
+    margin-right: 1%;
+}
+
+
+
+.pai{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.coluna1{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2%;
+}
+
+.coluna1 h1{
+    font-size: 27px;
+}
+
+.coluna2{
+    width: 50%;
+}
+
+.coluna2 img{
+    width: 80%;
+}

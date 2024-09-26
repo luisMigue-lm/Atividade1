@@ -1,0 +1,46 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cabecalho, .corpo, .rodape{
+    padding: 2rem;
+}
+
+.cabecalho{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cabecalho h1{
+    font-size: 2rem;
+}
+
+.corpo{
+    text-align: center;
+}
+
+.corpo p{
+   font-size: 1.2rem;
+}
+
+.corpo img{
+    width: 8rem;
+}
+
+.rodape{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape li, a{
+    list-style-type: none;
+    margin-right: 2.5px;
+    color: white;
+    text-decoration: none;
+}
+
